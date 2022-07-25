@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C81BDB82849324000DCCB98 /* TimeBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81BDB72849324000DCCB98 /* TimeBuddyApp.swift */; };
+		1C81BDBA2849324000DCCB98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81BDB92849324000DCCB98 /* ContentView.swift */; };
+		1C81BDBC2849324400DCCB98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C81BDBB2849324400DCCB98 /* Assets.xcassets */; };
+		1C81BDBF2849324400DCCB98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C81BDBE2849324400DCCB98 /* Preview Assets.xcassets */; };
+		1C81BDCA2849324400DCCB98 /* TimeBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81BDC92849324400DCCB98 /* TimeBuddyTests.swift */; };
+		1C81BDD42849324400DCCB98 /* TimeBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81BDD32849324400DCCB98 /* TimeBuddyUITests.swift */; };
+		1C81BDD62849324400DCCB98 /* TimeBuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81BDD52849324400DCCB98 /* TimeBuddyUITestsLaunchTests.swift */; };
+		1C81BDE3284932A100DCCB98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81BDE2284932A100DCCB98 /* AppDelegate.swift */; };
+		1CCD8CB6284A6C4300CDACBD /* TimeZone-FormattedName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCD8CB5284A6C4300CDACBD /* TimeZone-FormattedName.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C81BDC62849324400DCCB98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C81BDAC2849324000DCCB98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C81BDB32849324000DCCB98;
+			remoteInfo = TimeBuddy;
+		};
+		1C81BDD02849324400DCCB98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C81BDAC2849324000DCCB98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C81BDB32849324000DCCB98;
+			remoteInfo = TimeBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C81BDB42849324000DCCB98 /* TimeBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C81BDB72849324000DCCB98 /* TimeBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBuddyApp.swift; sourceTree = "<group>"; };
+		1C81BDB92849324000DCCB98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C81BDBB2849324400DCCB98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C81BDBE2849324400DCCB98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C81BDC02849324400DCCB98 /* TimeBuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimeBuddy.entitlements; sourceTree = "<group>"; };
+		1C81BDC52849324400DCCB98 /* TimeBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C81BDC92849324400DCCB98 /* TimeBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBuddyTests.swift; sourceTree = "<group>"; };
+		1C81BDCF2849324400DCCB98 /* TimeBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C81BDD32849324400DCCB98 /* TimeBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBuddyUITests.swift; sourceTree = "<group>"; };
+		1C81BDD52849324400DCCB98 /* TimeBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C81BDE2284932A100DCCB98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C81BDE4284933A800DCCB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1CCD8CB5284A6C4300CDACBD /* TimeZone-FormattedName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeZone-FormattedName.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C81BDB12849324000DCCB98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C81BDC22849324400DCCB98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C81BDCC2849324400DCCB98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C81BDAB2849324000DCCB98 = {
+			isa = PBXGroup;
+			children = (
+				1C81BDB62849324000DCCB98 /* TimeBuddy */,
+				1C81BDC82849324400DCCB98 /* TimeBuddyTests */,
+				1C81BDD22849324400DCCB98 /* TimeBuddyUITests */,
+				1C81BDB52849324000DCCB98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C81BDB52849324000DCCB98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C81BDB42849324000DCCB98 /* TimeBuddy.app */,
+				1C81BDC52849324400DCCB98 /* TimeBuddyTests.xctest */,
+				1C81BDCF2849324400DCCB98 /* TimeBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C81BDB62849324000DCCB98 /* TimeBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				1C81BDE4284933A800DCCB98 /* Info.plist */,
+				1C81BDB72849324000DCCB98 /* TimeBuddyApp.swift */,
+				1C81BDB92849324000DCCB98 /* ContentView.swift */,
+				1C81BDBB2849324400DCCB98 /* Assets.xcassets */,
+				1C81BDC02849324400DCCB98 /* TimeBuddy.entitlements */,
+				1C81BDBD2849324400DCCB98 /* Preview Content */,
+				1C81BDE2284932A100DCCB98 /* AppDelegate.swift */,
+				1CCD8CB5284A6C4300CDACBD /* TimeZone-FormattedName.swift */,
+			);
+			path = TimeBuddy;
+			sourceTree = "<group>";
+		};
+		1C81BDBD2849324400DCCB98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C81BDBE2849324400DCCB98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C81BDC82849324400DCCB98 /* TimeBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C81BDC92849324400DCCB98 /* TimeBuddyTests.swift */,
+			);
+			path = TimeBuddyTests;
+			sourceTree = "<group>";
+		};
+		1C81BDD22849324400DCCB98 /* TimeBuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C81BDD32849324400DCCB98 /* TimeBuddyUITests.swift */,
+				1C81BDD52849324400DCCB98 /* TimeBuddyUITestsLaunchTests.swift */,
+			);
+			path = TimeBuddyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C81BDB32849324000DCCB98 /* TimeBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C81BDD92849324400DCCB98 /* Build configuration list for PBXNativeTarget "TimeBuddy" */;
+			buildPhases = (
+				1C81BDB02849324000DCCB98 /* Sources */,
+				1C81BDB12849324000DCCB98 /* Frameworks */,
+				1C81BDB22849324000DCCB98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeBuddy;
+			productName = TimeBuddy;
+			productReference = 1C81BDB42849324000DCCB98 /* TimeBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C81BDC42849324400DCCB98 /* TimeBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C81BDDC2849324400DCCB98 /* Build configuration list for PBXNativeTarget "TimeBuddyTests" */;
+			buildPhases = (
+				1C81BDC12849324400DCCB98 /* Sources */,
+				1C81BDC22849324400DCCB98 /* Frameworks */,
+				1C81BDC32849324400DCCB98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C81BDC72849324400DCCB98 /* PBXTargetDependency */,
+			);
+			name = TimeBuddyTests;
+			productName = TimeBuddyTests;
+			productReference = 1C81BDC52849324400DCCB98 /* TimeBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C81BDCE2849324400DCCB98 /* TimeBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C81BDDF2849324400DCCB98 /* Build configuration list for PBXNativeTarget "TimeBuddyUITests" */;
+			buildPhases = (
+				1C81BDCB2849324400DCCB98 /* Sources */,
+				1C81BDCC2849324400DCCB98 /* Frameworks */,
+				1C81BDCD2849324400DCCB98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C81BDD12849324400DCCB98 /* PBXTargetDependency */,
+			);
+			name = TimeBuddyUITests;
+			productName = TimeBuddyUITests;
+			productReference = 1C81BDCF2849324400DCCB98 /* TimeBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C81BDAC2849324000DCCB98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1C81BDB32849324000DCCB98 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					1C81BDC42849324400DCCB98 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 1C81BDB32849324000DCCB98;
+					};
+					1C81BDCE2849324400DCCB98 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 1C81BDB32849324000DCCB98;
+					};
+				};
+			};
+			buildConfigurationList = 1C81BDAF2849324000DCCB98 /* Build configuration list for PBXProject "TimeBuddy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C81BDAB2849324000DCCB98;
+			productRefGroup = 1C81BDB52849324000DCCB98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C81BDB32849324000DCCB98 /* TimeBuddy */,
+				1C81BDC42849324400DCCB98 /* TimeBuddyTests */,
+				1C81BDCE2849324400DCCB98 /* TimeBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C81BDB22849324000DCCB98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C81BDBF2849324400DCCB98 /* Preview Assets.xcassets in Resources */,
+				1C81BDBC2849324400DCCB98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C81BDC32849324400DCCB98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C81BDCD2849324400DCCB98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C81BDB02849324000DCCB98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C81BDE3284932A100DCCB98 /* AppDelegate.swift in Sources */,
+				1C81BDBA2849324000DCCB98 /* ContentView.swift in Sources */,
+				1CCD8CB6284A6C4300CDACBD /* TimeZone-FormattedName.swift in Sources */,
+				1C81BDB82849324000DCCB98 /* TimeBuddyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C81BDC12849324400DCCB98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C81BDCA2849324400DCCB98 /* TimeBuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C81BDCB2849324400DCCB98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C81BDD62849324400DCCB98 /* TimeBuddyUITestsLaunchTests.swift in Sources */,
+				1C81BDD42849324400DCCB98 /* TimeBuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C81BDC72849324400DCCB98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C81BDB32849324000DCCB98 /* TimeBuddy */;
+			targetProxy = 1C81BDC62849324400DCCB98 /* PBXContainerItemProxy */;
+		};
+		1C81BDD12849324400DCCB98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C81BDB32849324000DCCB98 /* TimeBuddy */;
+			targetProxy = 1C81BDD02849324400DCCB98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C81BDD72849324400DCCB98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C81BDD82849324400DCCB98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1C81BDDA2849324400DCCB98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimeBuddy/TimeBuddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeBuddy/Preview Content\"";
+				DEVELOPMENT_TEAM = T2VL29ER23;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeBuddy/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.TimeBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1C81BDDB2849324400DCCB98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimeBuddy/TimeBuddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeBuddy/Preview Content\"";
+				DEVELOPMENT_TEAM = T2VL29ER23;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeBuddy/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.TimeBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1C81BDDD2849324400DCCB98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T2VL29ER23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.TimeBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeBuddy.app/Contents/MacOS/TimeBuddy";
+			};
+			name = Debug;
+		};
+		1C81BDDE2849324400DCCB98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T2VL29ER23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.TimeBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeBuddy.app/Contents/MacOS/TimeBuddy";
+			};
+			name = Release;
+		};
+		1C81BDE02849324400DCCB98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T2VL29ER23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.TimeBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TimeBuddy;
+			};
+			name = Debug;
+		};
+		1C81BDE12849324400DCCB98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T2VL29ER23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.TimeBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TimeBuddy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C81BDAF2849324000DCCB98 /* Build configuration list for PBXProject "TimeBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C81BDD72849324400DCCB98 /* Debug */,
+				1C81BDD82849324400DCCB98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C81BDD92849324400DCCB98 /* Build configuration list for PBXNativeTarget "TimeBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C81BDDA2849324400DCCB98 /* Debug */,
+				1C81BDDB2849324400DCCB98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C81BDDC2849324400DCCB98 /* Build configuration list for PBXNativeTarget "TimeBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C81BDDD2849324400DCCB98 /* Debug */,
+				1C81BDDE2849324400DCCB98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C81BDDF2849324400DCCB98 /* Build configuration list for PBXNativeTarget "TimeBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C81BDE02849324400DCCB98 /* Debug */,
+				1C81BDE12849324400DCCB98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C81BDAC2849324000DCCB98 /* Project object */;
+}
