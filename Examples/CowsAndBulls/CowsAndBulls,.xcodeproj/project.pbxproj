@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C7D399B282C81A8009C2450 /* CowsAndBulls_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D399A282C81A8009C2450 /* CowsAndBulls_App.swift */; };
+		1C7D399D282C81A8009C2450 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D399C282C81A8009C2450 /* ContentView.swift */; };
+		1C7D399F282C81AC009C2450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7D399E282C81AC009C2450 /* Assets.xcassets */; };
+		1C7D39A2282C81AC009C2450 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7D39A1282C81AC009C2450 /* Preview Assets.xcassets */; };
+		1C7D39AD282C81AC009C2450 /* CowsAndBulls_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D39AC282C81AC009C2450 /* CowsAndBulls_Tests.swift */; };
+		1C7D39B7282C81AC009C2450 /* CowsAndBulls_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D39B6282C81AC009C2450 /* CowsAndBulls_UITests.swift */; };
+		1C7D39B9282C81AC009C2450 /* CowsAndBulls_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D39B8282C81AC009C2450 /* CowsAndBulls_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C7D39A9282C81AC009C2450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C7D398F282C81A8009C2450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C7D3996282C81A8009C2450;
+			remoteInfo = "CowsAndBulls,";
+		};
+		1C7D39B3282C81AC009C2450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C7D398F282C81A8009C2450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C7D3996282C81A8009C2450;
+			remoteInfo = "CowsAndBulls,";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C7D3997282C81A8009C2450 /* CowsAndBulls,.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CowsAndBulls,.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7D399A282C81A8009C2450 /* CowsAndBulls_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsAndBulls_App.swift; sourceTree = "<group>"; };
+		1C7D399C282C81A8009C2450 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C7D399E282C81AC009C2450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C7D39A1282C81AC009C2450 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C7D39A3282C81AC009C2450 /* CowsAndBulls_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CowsAndBulls_.entitlements; sourceTree = "<group>"; };
+		1C7D39A8282C81AC009C2450 /* CowsAndBulls,Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CowsAndBulls,Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7D39AC282C81AC009C2450 /* CowsAndBulls_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsAndBulls_Tests.swift; sourceTree = "<group>"; };
+		1C7D39B2282C81AC009C2450 /* CowsAndBulls,UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CowsAndBulls,UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7D39B6282C81AC009C2450 /* CowsAndBulls_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsAndBulls_UITests.swift; sourceTree = "<group>"; };
+		1C7D39B8282C81AC009C2450 /* CowsAndBulls_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsAndBulls_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C7D3994282C81A8009C2450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7D39A5282C81AC009C2450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7D39AF282C81AC009C2450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C7D398E282C81A8009C2450 = {
+			isa = PBXGroup;
+			children = (
+				1C7D3999282C81A8009C2450 /* CowsAndBulls, */,
+				1C7D39AB282C81AC009C2450 /* CowsAndBulls,Tests */,
+				1C7D39B5282C81AC009C2450 /* CowsAndBulls,UITests */,
+				1C7D3998282C81A8009C2450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C7D3998282C81A8009C2450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C7D3997282C81A8009C2450 /* CowsAndBulls,.app */,
+				1C7D39A8282C81AC009C2450 /* CowsAndBulls,Tests.xctest */,
+				1C7D39B2282C81AC009C2450 /* CowsAndBulls,UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C7D3999282C81A8009C2450 /* CowsAndBulls, */ = {
+			isa = PBXGroup;
+			children = (
+				1C7D399A282C81A8009C2450 /* CowsAndBulls_App.swift */,
+				1C7D399C282C81A8009C2450 /* ContentView.swift */,
+				1C7D399E282C81AC009C2450 /* Assets.xcassets */,
+				1C7D39A3282C81AC009C2450 /* CowsAndBulls_.entitlements */,
+				1C7D39A0282C81AC009C2450 /* Preview Content */,
+			);
+			path = "CowsAndBulls,";
+			sourceTree = "<group>";
+		};
+		1C7D39A0282C81AC009C2450 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C7D39A1282C81AC009C2450 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C7D39AB282C81AC009C2450 /* CowsAndBulls,Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1C7D39AC282C81AC009C2450 /* CowsAndBulls_Tests.swift */,
+			);
+			path = "CowsAndBulls,Tests";
+			sourceTree = "<group>";
+		};
+		1C7D39B5282C81AC009C2450 /* CowsAndBulls,UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C7D39B6282C81AC009C2450 /* CowsAndBulls_UITests.swift */,
+				1C7D39B8282C81AC009C2450 /* CowsAndBulls_UITestsLaunchTests.swift */,
+			);
+			path = "CowsAndBulls,UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C7D3996282C81A8009C2450 /* CowsAndBulls, */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7D39BC282C81AC009C2450 /* Build configuration list for PBXNativeTarget "CowsAndBulls," */;
+			buildPhases = (
+				1C7D3993282C81A8009C2450 /* Sources */,
+				1C7D3994282C81A8009C2450 /* Frameworks */,
+				1C7D3995282C81A8009C2450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CowsAndBulls,";
+			productName = "CowsAndBulls,";
+			productReference = 1C7D3997282C81A8009C2450 /* CowsAndBulls,.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C7D39A7282C81AC009C2450 /* CowsAndBulls,Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7D39BF282C81AC009C2450 /* Build configuration list for PBXNativeTarget "CowsAndBulls,Tests" */;
+			buildPhases = (
+				1C7D39A4282C81AC009C2450 /* Sources */,
+				1C7D39A5282C81AC009C2450 /* Frameworks */,
+				1C7D39A6282C81AC009C2450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C7D39AA282C81AC009C2450 /* PBXTargetDependency */,
+			);
+			name = "CowsAndBulls,Tests";
+			productName = "CowsAndBulls,Tests";
+			productReference = 1C7D39A8282C81AC009C2450 /* CowsAndBulls,Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C7D39B1282C81AC009C2450 /* CowsAndBulls,UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7D39C2282C81AC009C2450 /* Build configuration list for PBXNativeTarget "CowsAndBulls,UITests" */;
+			buildPhases = (
+				1C7D39AE282C81AC009C2450 /* Sources */,
+				1C7D39AF282C81AC009C2450 /* Frameworks */,
+				1C7D39B0282C81AC009C2450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C7D39B4282C81AC009C2450 /* PBXTargetDependency */,
+			);
+			name = "CowsAndBulls,UITests";
+			productName = "CowsAndBulls,UITests";
+			productReference = 1C7D39B2282C81AC009C2450 /* CowsAndBulls,UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C7D398F282C81A8009C2450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					1C7D3996282C81A8009C2450 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					1C7D39A7282C81AC009C2450 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 1C7D3996282C81A8009C2450;
+					};
+					1C7D39B1282C81AC009C2450 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 1C7D3996282C81A8009C2450;
+					};
+				};
+			};
+			buildConfigurationList = 1C7D3992282C81A8009C2450 /* Build configuration list for PBXProject "CowsAndBulls," */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C7D398E282C81A8009C2450;
+			productRefGroup = 1C7D3998282C81A8009C2450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C7D3996282C81A8009C2450 /* CowsAndBulls, */,
+				1C7D39A7282C81AC009C2450 /* CowsAndBulls,Tests */,
+				1C7D39B1282C81AC009C2450 /* CowsAndBulls,UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C7D3995282C81A8009C2450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7D39A2282C81AC009C2450 /* Preview Assets.xcassets in Resources */,
+				1C7D399F282C81AC009C2450 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7D39A6282C81AC009C2450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7D39B0282C81AC009C2450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C7D3993282C81A8009C2450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7D399D282C81A8009C2450 /* ContentView.swift in Sources */,
+				1C7D399B282C81A8009C2450 /* CowsAndBulls_App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7D39A4282C81AC009C2450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7D39AD282C81AC009C2450 /* CowsAndBulls_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7D39AE282C81AC009C2450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7D39B7282C81AC009C2450 /* CowsAndBulls_UITests.swift in Sources */,
+				1C7D39B9282C81AC009C2450 /* CowsAndBulls_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C7D39AA282C81AC009C2450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C7D3996282C81A8009C2450 /* CowsAndBulls, */;
+			targetProxy = 1C7D39A9282C81AC009C2450 /* PBXContainerItemProxy */;
+		};
+		1C7D39B4282C81AC009C2450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C7D3996282C81A8009C2450 /* CowsAndBulls, */;
+			targetProxy = 1C7D39B3282C81AC009C2450 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C7D39BA282C81AC009C2450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C7D39BB282C81AC009C2450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1C7D39BD282C81AC009C2450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CowsAndBulls,/CowsAndBulls_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CowsAndBulls,/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leon.CowsAndBulls-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1C7D39BE282C81AC009C2450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CowsAndBulls,/CowsAndBulls_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CowsAndBulls,/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leon.CowsAndBulls-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1C7D39C0282C81AC009C2450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leon.CowsAndBulls-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CowsAndBulls,.app/Contents/MacOS/CowsAndBulls,";
+			};
+			name = Debug;
+		};
+		1C7D39C1282C81AC009C2450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leon.CowsAndBulls-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CowsAndBulls,.app/Contents/MacOS/CowsAndBulls,";
+			};
+			name = Release;
+		};
+		1C7D39C3282C81AC009C2450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leon.CowsAndBulls-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CowsAndBulls,";
+			};
+			name = Debug;
+		};
+		1C7D39C4282C81AC009C2450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leon.CowsAndBulls-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CowsAndBulls,";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C7D3992282C81A8009C2450 /* Build configuration list for PBXProject "CowsAndBulls," */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7D39BA282C81AC009C2450 /* Debug */,
+				1C7D39BB282C81AC009C2450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C7D39BC282C81AC009C2450 /* Build configuration list for PBXNativeTarget "CowsAndBulls," */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7D39BD282C81AC009C2450 /* Debug */,
+				1C7D39BE282C81AC009C2450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C7D39BF282C81AC009C2450 /* Build configuration list for PBXNativeTarget "CowsAndBulls,Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7D39C0282C81AC009C2450 /* Debug */,
+				1C7D39C1282C81AC009C2450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C7D39C2282C81AC009C2450 /* Build configuration list for PBXNativeTarget "CowsAndBulls,UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7D39C3282C81AC009C2450 /* Debug */,
+				1C7D39C4282C81AC009C2450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C7D398F282C81A8009C2450 /* Project object */;
+}
