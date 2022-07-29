@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C14294B28935F5F0003AC1C /* Candy-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C14294A28935F5F0003AC1C /* Candy-CoreDataHelpers.swift */; };
+		1C1D2B762890A62D0038D2ED /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1D2B742890A62D0038D2ED /* Movie+CoreDataClass.swift */; };
+		1C1D2B772890A62D0038D2ED /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1D2B752890A62D0038D2ED /* Movie+CoreDataProperties.swift */; };
 		1C474F13288B6A18007B1D44 /* CoreDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C474F12288B6A18007B1D44 /* CoreDataProjectApp.swift */; };
 		1C474F15288B6A18007B1D44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C474F14288B6A18007B1D44 /* ContentView.swift */; };
 		1C474F17288B6A1B007B1D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C474F16288B6A1B007B1D44 /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C14294A28935F5F0003AC1C /* Candy-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		1C1D2B742890A62D0038D2ED /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Movie+CoreDataClass.swift"; path = "CoreDataProject/Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1C1D2B752890A62D0038D2ED /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Movie+CoreDataProperties.swift"; path = "CoreDataProject/Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		1C474F0F288B6A18007B1D44 /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C474F12288B6A18007B1D44 /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
 		1C474F14288B6A18007B1D44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +85,9 @@
 		1C474F06288B6A17007B1D44 = {
 			isa = PBXGroup;
 			children = (
+				1C14294A28935F5F0003AC1C /* Candy-CoreDataHelpers.swift */,
+				1C1D2B742890A62D0038D2ED /* Movie+CoreDataClass.swift */,
+				1C1D2B752890A62D0038D2ED /* Movie+CoreDataProperties.swift */,
 				1C474F11288B6A18007B1D44 /* CoreDataProject */,
 				1C474F23288B6A1B007B1D44 /* CoreDataProjectTests */,
 				1C474F2D288B6A1B007B1D44 /* CoreDataProjectUITests */,
@@ -267,7 +276,10 @@
 			files = (
 				1C474F15288B6A18007B1D44 /* ContentView.swift in Sources */,
 				1C474F3E288B6A56007B1D44 /* DataController.swift in Sources */,
+				1C14294B28935F5F0003AC1C /* Candy-CoreDataHelpers.swift in Sources */,
 				1C474F41288B6A94007B1D44 /* CoreDataProject.xcdatamodeld in Sources */,
+				1C1D2B762890A62D0038D2ED /* Movie+CoreDataClass.swift in Sources */,
+				1C1D2B772890A62D0038D2ED /* Movie+CoreDataProperties.swift in Sources */,
 				1C474F13288B6A18007B1D44 /* CoreDataProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
